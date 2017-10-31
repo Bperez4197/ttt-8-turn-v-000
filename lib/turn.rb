@@ -40,7 +40,7 @@ def turn(board)
    move(board, index, char = "0")
  else
      puts "Sorry, that is an invalid move."
-     until turn(board)
+     turn(board)
 end
 end
 end
