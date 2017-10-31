@@ -41,7 +41,6 @@ def turn(board)
    display_board(board)
  else
      puts "Sorry, that is an invalid move."
-     turn(board)
-     break
+     
 end
 end
