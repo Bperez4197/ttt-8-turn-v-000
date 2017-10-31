@@ -29,7 +29,7 @@ def valid_move?(board,index)
 end
 
 def move(board, index, char = "O")
-  board.between?[0,8] = "X" || "O"
+  board.between?[0,8] = "X" || board.between?[0,8] = "O"
 end
 
 def turn(board)
