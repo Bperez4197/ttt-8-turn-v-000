@@ -39,11 +39,10 @@ def turn(board)
   index = input_to_index(i)
 
    if valid_move?(board, index)
-  move(board, index,char = "0")
+      move(board, index,char = "0")
   else
       puts "Sorry, that was an invalid move. Please enter 1-9:"
       turn(board)
-
-  end
-  display_board(board)
+end
+  display_board(board) += turn(board)
 end
