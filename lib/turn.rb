@@ -38,7 +38,6 @@ def turn(board)
    index = input_to_index(gets.strip)
    if valid_move?(board, index)
    move(board, index, char = "0")
-   display_board(board)
  else
      puts "Sorry, that is an invalid move."
      until valid_move?(board, index)
