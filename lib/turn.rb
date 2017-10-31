@@ -33,7 +33,7 @@ def move(board, index, char = "O")
   board[8] = "X"
 end
 
-def turn(board) loop do
+def turn(board) 
   puts "Please enter 1-9:"
   i = gets.strip
   index = input_to_index(i)
@@ -43,6 +43,5 @@ def turn(board) loop do
       puts "Sorry, that was an invalid move. Please enter 1-9:"
       turn(board)
   display_board(board)
-end
 end
 end
