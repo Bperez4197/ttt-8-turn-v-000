@@ -43,7 +43,7 @@ def turn(board)
   else
       puts "Sorry, that was an invalid move. Please enter 1-9:"
       turn(board)
-     
+
     end
   end
   display_board(board)
