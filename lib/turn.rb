@@ -41,11 +41,9 @@ def turn(board)
   if m == true
     move(board, index,char = "0")
   else
-    until m == true
       puts "Sorry, that was an invalid move. Please enter 1-9:"
-      i
-      index
-      m
+      turn(board)
+     
     end
   end
   display_board(board)
