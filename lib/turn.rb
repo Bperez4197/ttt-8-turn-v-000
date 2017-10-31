@@ -41,5 +41,6 @@ def turn(board)
    display_board(board)
    if !valid_move?(board, index)
      puts "Sorry, that is an invalid move."
-
+     turn(board)
+end
 end
