@@ -33,7 +33,7 @@ def move(board, index, char = "O")
   board[8] = "X"
 end
 
-def turn(board)
+def turn(board) do
   puts "Please enter 1-9:"
   i = gets.strip
   index = input_to_index(i)
@@ -42,6 +42,7 @@ def turn(board)
   else
       puts "Sorry, that was an invalid move. Please enter 1-9:"
       turn(board)
-end
   display_board(board)
+end
+end
 end
