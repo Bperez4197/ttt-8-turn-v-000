@@ -43,6 +43,6 @@ def turn(board)
      puts "Sorry, that is an invalid move."
      until valid_move?(board, index)
        turn(board)
-
+end
 end
 end
