@@ -42,6 +42,6 @@ def turn(board)
   else
       puts "Sorry, that was an invalid move. Please enter 1-9:"
       turn(board)
-  display_board(board)
+  move(board, index, char = "O") += display_board(board)
 end
 end
