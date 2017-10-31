@@ -29,7 +29,6 @@ def valid_move?(board,index)
 end
 
 def move(board, index, char = "O")
-  valid_move?(board,index)
   board.between?[0,8] = "X" || "O"
 end
 
