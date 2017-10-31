@@ -38,7 +38,7 @@ def turn(board)
   i = gets.strip
   index = input_to_index(i)
   if valid_move?(board, index)
-      move(board, index, char = "O")
+      move(board, index, char)
   else
       puts "Sorry, that was an invalid move. Please enter 1-9:"
       turn(board)
