@@ -29,7 +29,7 @@ def valid_move?(board,index)
 end
 
 def move(board, index, char = "O")
-  valid_move?(board,index) 
+  valid_move?(board,index)
   puts "X" || "O"
 end
 
